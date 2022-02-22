@@ -19,6 +19,7 @@ The entire study is done with Google Colab and keras as framework. The first ste
 
 ## Several things I want to try
 * I want to make a .gif for the prediction of all the frames from the entire prediction, rather than just displaying one single frame.
-* I want to replace the convolutional layers to residual blocks (ResNet)
+* I want to replace the convolutional layers to residual blocks (ResNet).
+* I want to increase the prediction leading time to 1hr or more.
 * I want to do data augmentation or obtain more data. 
 * I want to make more input channels, or larger interval.
