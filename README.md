@@ -18,7 +18,7 @@ This is a project started from 2022/10 as an undergraduate graduation research f
 The entire study is done with Google Colab and keras as framework. The first step is to prepare the data, of course. The original data is collected as a continuous rainfall radar images for every 1 minute. Use data_prep to generate a input data and a output data (for each of the rainfall event). Then connect all of the separate dataset for each of the event as a complete training dataset (for both input and ouput) by using connect_events. Then pad the dataset into 192 128 from 180 120, since the encoder-decoder requires this to downsample and upsample for 4 times. Next, to train the model, simply run Model.ipynb, a .h5 file should be output as the trained model. Finally, to predict the with the trained model, use predict.ipynb directly by giving the trained model and prepared dataset. 
 
 ## Several things I want to try
-* How to visualize the prediction result. I want to make a .gif for the prediction of all the frames from the entire prediction, rather than just displaying one single frame.
+* I want to make a .gif for the prediction of all the frames from the entire prediction, rather than just displaying one single frame.
 * I want to replace the convolutional layers to residual blocks (ResNet)
-* Data augmentation or more data. 
-* More input channels, or larger interval.
+* I want to do data augmentation or obtain more data. 
+* I want to make more input channels, or larger interval.
