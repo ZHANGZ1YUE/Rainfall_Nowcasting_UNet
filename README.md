@@ -1,7 +1,7 @@
 # Application of Convolutional Encoder-Decoder for Radar Image-Based Rainfall Nowcasting
 
 ## Author
-ZHANG Ziyue 
+ZHANG Ziyue (Faculty of Engineering, Kyoto University)
 
 ## Description
 The study explores the implementation of U-Net architecture in the rainfall nowcasting task with radar image extrapolation. The work has referred to both U-Net and RainNet (A study done by Ayzel Georgy), with sensitivity analysis in some hyperparameters, model structures, and prediction method (direct 30 minutes prediction). Original radar data is the X-band radar data for 7 rainfall events available from Japan Meterological Agency.
